@@ -23,7 +23,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Add funny comment 
         run: echo Hello, world!
-        uses:
+        uses: anvitaa22/funny-comment-action@v2.1
         id: FunnyComment
         with:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
