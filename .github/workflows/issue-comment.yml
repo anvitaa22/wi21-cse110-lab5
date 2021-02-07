@@ -19,7 +19,7 @@ jobs:
     steps:
       # Runs a single command using the runners shell
       - name: Add funny comment 
-        uses: anvitaa22/wi21-cse110-lab5@master
+        uses: Marta83/funny-comment-action@v2.1
         id: FunnyComment
         with:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
